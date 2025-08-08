@@ -1,0 +1,40 @@
+{
+    "gestionnaire": {
+        "nom": "Dieng",
+        "prenom": "Abzo",
+        "email": "admin@gpexpress.sn",
+        "password": "admin123",
+        "telephone": "+221785474553",
+        "adresse": "Dakar, Sénégal"
+    },
+    "cargaisons": [
+        {
+            "numero": "CG001",
+            "type": "Aerienne",
+            "poidsMax": 10000,
+            "prix": 500000,
+            "lieuDepart": { "latitude": 14.6928, "longitude": -17.4467 },
+            "lieuArrivee": { "latitude": 6.5244, "longitude": 3.3792 },
+            "distance": 2000,
+            "dateDedéparte": "2025-08-01T09:00:00Z",
+            "dateArrivée": "2025-08-02T18:00:00Z",
+            "etatGlobal": "Ouvert",
+            "colisList": [
+                {
+                    "poids": 120,
+                    "prix": 15000,
+                    "client": {
+                        "nom": "Dieng",
+                        "prenom": "abzo",
+                        "telephone": "+221785474553",
+                        "adresse": "Thiès, Sénégal",
+                        "email": "abzodieng@email.com"
+                    },
+                    "produits": [
+                        { "libelle": "Ordinateur portable", "type": "Materiel" }
+                    ]
+                }
+            ]
+        }
+    ]
+}
