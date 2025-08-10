@@ -19,20 +19,21 @@
             "dateDedéparte": "2025-08-01T09:00:00Z",
             "dateArrivée": "2025-08-02T18:00:00Z",
             "etatGlobal": "Ouvert",
+            "libelle": "Ordinateur portable",
+            
             "colisList": [
                 {
                     "poids": 120,
                     "prix": 15000,
-                    "client": {
+                    "typeColis": "MaterielFragile",
+                   "client": {
                         "nom": "Dieng",
                         "prenom": "abzo",
                         "telephone": "+221785474553",
                         "adresse": "Thiès, Sénégal",
                         "email": "abzodieng@email.com"
-                    },
-                    "produits": [
-                        { "libelle": "Ordinateur portable", "type": "Materiel" }
-                    ]
+                    }
+                    
                 }
             ]
         }
