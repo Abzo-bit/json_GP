@@ -21,21 +21,21 @@
             "etatGlobal": "Ouvert",
             "libelle": "Ordinateur portable",
             
-            "colisList": [
-                {
-                    "poids": 120,
-                    "prix": 15000,
-                    "typeColis": "MaterielFragile",
-                   "client": {
-                        "nom": "Dieng",
-                        "prenom": "abzo",
-                        "telephone": "+221785474553",
-                        "adresse": "Thiès, Sénégal",
-                        "email": "abzodieng@email.com"
-                    }
-                    
-                }
-            ]
+    "colisList": [
+        {
+            "numero": "CL001",
+            "poids": 120,
+            "prix": 15000,
+            "typeColis": "MaterielFragile",
+            "client": {
+                "nom": "Dieng",
+                "prenom": "abzo",
+                "telephone": "+221785474553",
+                "adresse": "Thiès, Sénégal",
+                "email": "abzodieng@email.com"
+            }
+        }
+    ]
         }
     ]
 }
